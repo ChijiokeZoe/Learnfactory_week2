@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        h1 {
+            color: #2d353b;
+        }
+
+        input {
+            width: 70%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #1EA1F3;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 70%;
+        }
+
+        button:hover {
+            background-color: #0d8ddb;
+        }
+
+        .twitter-logo {
+            padding-left: 250px;
+            width: 70px;
+            height: auto;
+        }
+
+        .body {
+            background-color: #1EA1F3;          
+        }
+
+        .container {
+            display: flex;
+            margin: auto; 
+            padding: auto; 
+            width: 70%; 
+            height: 60%;
+        }
+
+        .image-container{
+        width: 50%;
+        border-radius: 8px;  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #1EA1F3;
+        
+            
+        }
+
+        .twitter-logo2 {
+            width: 70%;
+            height: 70%;
+            align-items: center;
+        justify-content: center;    
+        }
+
+        h3 {
+            color: #ffff;
+        }
+
+        .arrow{
+            font-weight: bold;
+            margin-left: 30px;
+        }
+
+        .forgot {
+            font-size: x-small;
+           
+            margin-bottom: 20px; 
+            color: #1EA1F3;
+            padding-right: 10px;/* Adjust the margin as needed */
+        }
+
+    </style>
+
+</head>
+
+<body class="body">
+  <div class="container">
+    <div class="login-container">
+        <img src="./assets/twitterLogo.jpeg" alt="Twitter Logo" class="twitter-logo">
+        <h1>Welcome Back</h1>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Phone, email or Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <p class="forgot">Forgot Password*?</p>
+            <button type="submit">Log In <span  class="arrow"> -> </span></button>
+        </form>      
+    </div>
+
+
+    <div class="image-container">
+       
+        <h3>Join twitter today and see what's<br/> happening in the world right now</h3>
+
+        <img src="./assets/PHOTO-2024-01-05-17-47-08.jpg" alt="Twitter Logo" class="twitter-logo2">
+    </div>
+  </div>
+</body>
+</html>
